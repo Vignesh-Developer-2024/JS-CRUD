@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>CRUD by Javascript with Firebase</h3>
+    <form action="#" id="frm">
+        <input type="hidden" id="id">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="Enter your City">
+        </div>
+        <button type="submit" class="btn" id="btnSubmit"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#000000"><path d="M178-86v-689q0-37.59 27.61-64.79Q233.22-867 269-867h422q36.19 0 64.09 27.21Q783-812.59 783-775v689L480-215 178-86Zm91-139 211-88 211 88v-550H269v550Zm0-550h422-422Z"/></svg>Submit</button>
+    </form>
+
+    <table>
+        <h3>DATA'S</h3>
+        <thead>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </thead>
+        <tbody id="tablebody">
+                       
+        </tbody>
+        
+    </table>
+
+
+
+
+
+
+    <script src="/crud.js" type="module"></script>
+</body>
+</html>
